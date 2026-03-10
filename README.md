@@ -10,6 +10,8 @@ pinned: false
 license: mit
 ---
 
+# 🚀 Live Demo: https://huggingface.co/spaces/Prabhjit2401/financial-doc-intelligence
+
 # 📊 Financial Document Intelligence
 
 Query SEC 10-K & 10-Q filings using natural language. Built with ChromaDB, Groq LLaMA 3.3, and Streamlit.

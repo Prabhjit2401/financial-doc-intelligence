@@ -1,0 +1,39 @@
+{
+  "run_timestamp": "2026-03-10T02:23:01.623085",
+  "n_questions": 3,
+  "aggregate_scores": {
+    "faithfulness": NaN,
+    "answer_relevancy": NaN,
+    "context_precision": NaN,
+    "context_recall": NaN
+  },
+  "per_question": [
+    {
+      "question": "What are Apple's main supply chain risk factors?",
+      "ticker": "AAPL",
+      "section": "risk_factors",
+      "faithfulness": NaN,
+      "answer_relevancy": NaN,
+      "context_precision": NaN,
+      "context_recall": NaN
+    },
+    {
+      "question": "What regulatory risks does Apple face regarding the App Store?",
+      "ticker": "AAPL",
+      "section": "risk_factors",
+      "faithfulness": NaN,
+      "answer_relevancy": NaN,
+      "context_precision": NaN,
+      "context_recall": NaN
+    },
+    {
+      "question": "What are Microsoft's key risk factors related to cybersecurity?",
+      "ticker": "MSFT",
+      "section": "risk_factors",
+      "faithfulness": NaN,
+      "answer_relevancy": NaN,
+      "context_precision": NaN,
+      "context_recall": NaN
+    }
+  ]
+}
