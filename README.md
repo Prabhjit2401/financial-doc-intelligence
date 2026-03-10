@@ -45,3 +45,18 @@ python embeddings/embedder.py
 # Run the app
 streamlit run app/streamlit_app.py
 ```
+
+## 📊 RAG Evaluation (RAGAS)
+
+Evaluated using [RAGAS](https://github.com/explodinggradients/ragas) with Groq LLaMA 3.3 70B as judge LLM 
+and `all-MiniLM-L6-v2` for embeddings. Test set: 3 curated SEC filing QA pairs across AAPL and MSFT.
+
+| Metric | Score | Description |
+|--------|-------|-------------|
+| Faithfulness | **0.91** 🟢 | Answers grounded in retrieved context |
+| Answer Relevancy | **0.94** 🟢 | Answers directly address the question |
+| Context Precision | **0.90** 🟢 | Retrieved chunks are highly relevant |
+| Context Recall | **0.83** 🟢 | Context covers ground truth information |
+
+> Evaluation limited to 3 questions due to Groq free tier token limits (100k TPD).
+> Run `python evaluate/evaluate.py --n_questions 3` to reproduce.
